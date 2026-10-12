@@ -1,0 +1,81 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<title>Admin Dashboard | THIOBEEMS</title>
+	<link rel="stylesheet" href="assets/css/style.css">
+</head><body>
+	<div id="header">
+		
+	</div>
+	<main class="dashboard">
+		<div class="container">
+			<div class="dash-head">
+				<div>
+					<span class="eyebrow">Administration</span>
+					<h1>University Dashboard</h1>
+				</div>
+				<button class="btn outline" onclick="logout('admin')">Log out</button>
+			</div>
+			<div class="dash-stats">
+				<div>
+					<b>5,248</b>
+					<span>Total Students</span>
+				</div><div>
+					<b>428</b>
+					<span>Applications</span>
+				</div><div>
+					<b>25</b>
+					<span>Programmes</span>
+				</div><div>
+					<b>184</b>
+					<span>Staff</span>
+				</div></div>
+				<div class="dashboard-grid">
+					<section class="panel">
+						<h2>Recent Applications</h2>
+						<table>
+							<tr>
+								<th>Name</th>
+								<th>Programme</th>
+								<th>Status</th>
+							</tr>
+							<tr>
+								<td>Amadou N.</td>
+								<td>Computer Science</td>
+								<td><span class="badge pending">Pending</span></td>
+							</tr>
+							<tr>
+								<td>Grace M.</td>
+								<td>Business Admin</td>
+								<td><span class="badge approved">Approved</span></td>
+							</tr>
+							<tr>
+								<td>Daniel E.</td>
+								<td>Public Health</td>
+								<td><span class="badge pending">Pending</span></td>
+							</tr>
+							<tr>
+								<td>Sarah T.</td>
+								<td>Software Engineering</td>
+								<td><span class="badge approved">Approved</span>
+								</td></tr>
+							</table>
+					</section>
+					<section class="panel">
+						<h2>Quick Actions</h2>
+						<a class="action" href="#">+ Add programme</a>
+						<a class="action" href="#">+ Create announcement</a>
+						<a class="action" href="#">Manage students</a>
+						<a class="action" href="#">Review applications</a>
+					</section>
+				</div></div>
+
+		</main>
+		<div id="footer"></div>
+		<script src="main.js">
+			
+		</script>
+</body>
+</html>
